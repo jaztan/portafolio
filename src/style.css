@@ -13,13 +13,11 @@ h1 {
 }
 h2 {
     background-color:beige;
-    text-align: center;
+    text-align:center;
 }
 p {
-    
     font-weight: bold;
   font-style: italic;
-    
 }
 input {
     padding-left: 10px;
