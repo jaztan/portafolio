@@ -1,29 +1,11 @@
-body {
-    font-family: Arial, Helvetica, Sans-serif;
-    text-align: center;
-    color:rgb(7, 7, 7);
-    background-color:rgba(177, 237, 241, 0.493);
-}
 img {
-    width: 200px; height: 200px;
+    size:115px;
+    width: 115px;
+    height:110px;
+    border-image: 4px;
 }
-h1 {
-    background-color:beige;
-    text-align: center;
-}
-h2 {
-    background-color:beige;
-    text-align:center;
-}
-p {
-    font-weight: bold;
-  font-style: italic;
-}
-input {
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 25px;
-    text-align: center;
-    color: black;
-    background-color:rgba(55, 161, 187, 0.411);
+.pru{
+    width: 110px;
+    height:110px;
+    border-image: 4px;
 }
