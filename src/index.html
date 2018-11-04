@@ -7,54 +7,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 <body>
-<!-- Header -->
-<header>
-    <div class="name"id="name">Jaztan  Guzmán </div>
-</header>
 <!-- Nav -->
 <nav>
-    <a href="#aboutme">Conóceme</a>
-    <a href="#work">Mi trabajo </a>
-    <a href="#call">Contáctame</a>
-</nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Jaztan Guzmán</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#aboutme">Conóceme</a></li>
+        <li><a href="#call">Contáctame</a></li>
+        <li><a href="#work">Mi trabajo </a></li>
+        </ul> 
+    </div>
+  </nav>
 <!-- conóceme -->
 <section id="aboutme">
         <article>
-            <div class="photo">
-                <img id="me" src="../imagenes/im.jpg" alt="foto" />
-            </div>
-        </article>
-    </section>
+          <div class="photo">
+            <div class="card">
+              <div class="card-image">
+                <img class="responsive-img"id="me" src="../imagenes/im.jpg"alt="foto">
+                  <span class="card-title">Conoceme</span>
+                   </div>
+                    <div class="card-content">
+                      <p> <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i> Soy Jazmín Guzmán, Diseñadora de Experiencias de Usuarios..... ¿Cómo llegue a serlo?</p>
+                      </div>
+                   </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="../imagenes/empatia.jpg">
+                <span class="card-title">Conoceme</span>
+                </div>
+                <div class="card-content">
+                  <p> <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>Ha sido un camino lleno de aprendizaje y me he dado cuenta que mi experiencia previa en otras ambitos laborales me ha aportado grandes habilidades.</p>
+                </div>
+             </div>
+        </div>
+      </article>
+  </section>
 
 <!-- proyectos -->
 
 <section id="work">
-    <article>
-        <img  id="work1" src="../imagenes/trivia-pread.png" alt="imagen-trivia" />
-                 <a style="font-size:24px" href="https://jaztan.github.io/trivia-preadmision/index.html" target="_blank" >Demo <i class="fa fa-desktop""></i></a>
-        
-                 <a style="font-size:24px" href="https://github.com/jaztan/trivia-preadmision" target="_blank" >Codigo <i class="fa fa-github"></i></a>   
-    </article>
-</section>
+   <div class="card">
+     <div class="card-image">
+       <img class="responsive-img" id="work1" src="../imagenes/trivia-pread.png"alt="imagen-trivia">
+          <span class="card-title">Trivia</span>
+       </div>
+           <div class="card-content">
+            <p>Este es el primer proyecto que hice en compañia de Diana Leyva y fue lo que nos permitío ser parte de la sexta generación de Laboratoria.</p>
+           </div>
+            <div class="card-action">
+           <a style="font-size:24px" href="https://jaztan.github.io/trivia-preadmision/index.html" target="_blank" >Demo <i class="fa fa-desktop""></i></a>
+            <a style="font-size:24px" href="https://github.com/jaztan/trivia-preadmision" target="_blank" >Codigo <i class="fa fa-github"></i></a>   
+         </div>
+        </div>
+   </section>
 <section>
     <article>
-            <img  id="work2" src="../imagenes/cuentame.png" alt="imagen-cuentame" />
-            <a style="font-size:24px" href="https://jaztan.github.io/cdmx-2018-06-bc-core-am-social-network/src/index.html" target="_blank" >Demo <i class="fa fa-desktop""></i></a>
-   
-            <a style="font-size:24px" href="https://github.com/jaztan/cdmx-2018-06-bc-core-am-social-network" target="_blank" >Codigo <i class="fa fa-github"></i></a> 
+      <div class="card">
+        <div class="card-image">
+          <img class="responsive-img" id="work2" src="../imagenes/cuentame.png" alt="imagen-cuentame">
+            <span class="card-title">Red Social</span>
+           </div>
+            <div class="card-content">
+             <p>Este proyecto fue elaborado en equipo de 3 integrantes.El desafio era crear una red social.</p>
+            </div>
+             <div class="card-action">
+                  <a style="font-size:24px" href="https://jaztan.github.io/trivia-preadmision/index.html" target="_blank" >Demo <i class="fa fa-desktop""></i></a>
+                   <a style="font-size:24px" href="https://github.com/jaztan/trivia-preadmision" target="_blank" >Codigo <i class="fa fa-github"></i></a>   
+                </div>
+               </div>
         </article>
     </section>
 <section>
-        <article>
-                <img  id="work3" src="../imagenes/app.b.png" alt="imagen-app-financiera" />
-                <a style="font-size:24px" href="https://github.com/jaztan/app-financiera" target="_blank" >Demo <i class="fa fa-desktop""></i></a>
-       
-                <a style="font-size:24px" href="https://marvelapp.com/5ie5111/screen/48177513" target="_blank" >Codigo <i class="fa fa-github"></i></a> 
-            </article>
+   <article>
+      <div class="card">
+         <div class="card-image">
+           <img class="responsive-img" id="work3" src="../imagenes/app.b.png" alt="imagen-app-financiera">
+              <span class="card-title">Tus Finanzas</span>
+             </div>
+         <div class="card-content">
+                      <p>Este proyecto consistia en crear un aplicación financiera que te permitiera visualizar gastos y llevar un mejor control de efectivo.Era el segundo lanzamiento de un banco que ya habia incursionado con su primer versión la cual era centrada en IOS.</p>
+         </div>
+         <div class="card-action">
+              <a style="font-size:24px" href="https://marvelapp.com/5ie5111/screen/48177513" target="_blank" >Codigo <i class="fa fa-github"></i></a>  <a style="font-size:24px" href="https://jaztan.github.io/trivia-preadmision/index.html" target="_blank" >Demo <i class="fa fa-desktop""></i></a>
+          </div>
+         </div>
+     </article>
 </section>
+
 <!-- contáctame -->
 <footer>
 <section id="call">
