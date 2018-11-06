@@ -1,35 +1,8 @@
-.hide-on-small-only
-.hide-on-small-and-down
-.hide-on-med-and-down
-.hide-on-med-and-up
-.hide-on-med-only
-.hide-on-large-only
-.show-on-large
-.show-on-medium
-.show-on-small
-.show-on-medium-and-up
-.show-on-medium-and-down
-          
-.card{
-    position:inline;
-}
+*{
+    margin:0px;
+    padding:0px;
 
-.card .card-image .card-title {
-    color: #039be5;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    max-width: 100%;
-    padding: 24px;
 }
-img {
-    size:315px;
-    width: 315px;
-    height:310px;
-    border-image: 4px;
-}
-.pru{
-    width: 110px;
-    height:110px;
-    border-image: 4px;
+section.aboutme{
+
 }
