@@ -1,8 +1,7 @@
-*{
-    margin:0px;
-    padding:0px;
+body{
+    background-color:peachpuff;
 
 }
-section.aboutme{
-
+div.class.row{
+    display: -ms-grid;
 }
