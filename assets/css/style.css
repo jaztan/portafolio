@@ -184,10 +184,6 @@ section{
 	line-height: 120px;
 	position: relative;
 }
-
-
-/*Button*/
-
 /*Element page*/
 .element .navigation-bar{
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -248,12 +244,13 @@ section{
 .menu-item ul a li{
 	padding: 15px 0;
 	list-style-type: none;
-	color: #fff;
+	color: blanchedalmond;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .menu-item ul a:hover li{
 	color: #51c2b9;
 	text-decoration: none;
+	
 }
 .hide-menu{
 	margin-top: -377px;
@@ -266,12 +263,12 @@ section{
 	background-image: none;
 }
 .navigation-bar{
-	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 1px solid blanchedalmond;
 	padding: 15px 0;
 	font-size: 30px;
 }
 .navigation-bar a{
-	color: #fff;
+	color: rgb(239, 239, 247);
 }
 .menu{
 	position: relative;
@@ -366,46 +363,6 @@ section{
 }
 
 
-.ubutia-quote{
-	background-image: url(../images/hack.jpg);
-	/*padding: 120px 0;*/
-	color: #fff;
-	font-style: italic;
-}
-.ubutia-quote p{
-	font-size: 32px;
-	color: #fff;
-}
-.ubutia-quote .quote{
-	margin-bottom: 40px;
-}
-.ubutia-quote .author{
-	font-size: 21px;
-	margin-bottom: 40px;
-}
-.watch{
-	background-image: url(../images/7.jpg);
-	font-style: italic;
-	font-size: 32px;
-	color: #fff;
-	padding: 150px 0;
-}
-.watch a{
-	border: 2px solid #fff;
-	margin-left: 10px;
-	margin-right: 10px;
-	line-height: 70px;
-	border-radius: 100%;
-	width: 70px;
-	height: 70px;
-	padding: 0;
-	font-size: 21px;
-	color: #fff;
-}
-.watch a:hover, .watch a:active, .watch a:focus{
-	background-color: #fff;
-	color: #424242;
-}
 
 .subscribe{
 	background-image: url(../images/11.jpg);
