@@ -219,10 +219,9 @@ section{
 	background-image: url(../images/journey-journey.jpg);
 	height: 100vh;
 	position: inline-block;
-	min-height: 659px;
+	min-height: 300px;
 	
 }
-
 .intro-box{
 	height: 100vh;
 	display: table;
