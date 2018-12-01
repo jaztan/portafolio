@@ -200,8 +200,8 @@ section{
 }
 .menu:after{
 	position: absolute;
-	left: -65px;
-	top: 10px;
+	left:-5px;
+	top: 30px;
 	color: #fff;
 	font-size: 16px;
 }
@@ -213,7 +213,7 @@ section{
 }
 /*Home page*/
 .header{
-	background-image: url(../images/journey-journey.jpg);
+	background-image: url(../images/yo.jpg);
 	height: 100vh;
 	position: inline-block;
 	min-height: 300px;	
@@ -251,11 +251,6 @@ section{
 .about{
 	background-color: #f8f8f8;
 }
-.about img{
-	margin: 30px auto;
-	display: -ms-inline-grid;
-	size: 30px;
-}
 .about span{
 	font-family: 'Raleway';
 	font-weight: 600;
@@ -266,19 +261,10 @@ section{
 .expert p{
 	line-height: 200%;
 }
-.expert .bg-img{
-	background-image: url(../images/2.jpg);
-	background-position-x: 85%;
-	height: 100%;
-}
-.expert .bg-img:after{
-	display: none;
-}
 .expert .section{
 	padding-left: 30px;
 	padding-right: 30px;
 }
-
 .contact .ubutia-card{
 	background-color: #f8f8f8;
 	padding: 35px 0;
@@ -292,7 +278,7 @@ section{
 }
 .contact .ubutia-card .ubutia-card-content h3{
 	letter-spacing: 2px;
-	margin-bottom: 45px;
+	margin-bottom: 60px;
 }
 .contact .ubutia-card .ubutia-card-content h3:after{
 	top: 40px;
@@ -326,8 +312,8 @@ section{
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
 	background-color: #51c2b9;
-	height: 14px;
-	width: 14px;
+	height: 20px;
+	width: 20px;
 	margin: 3px;
 }
 @media (max-width: 767px){
