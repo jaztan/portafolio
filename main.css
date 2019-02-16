@@ -2,7 +2,7 @@ body {
     margin: 0%;
     font-family: sans-serif;
 }
-header {
+.about {
     width: 100%;
     background:#4E94AB;
 }
@@ -13,5 +13,8 @@ card {
     width: 100px;
 }
 img {
+    width: 100%;
+}
+frame {
     width: 100%;
 }
